@@ -1,0 +1,85 @@
+*{
+    background-color:rgb(8, 7, 7);
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.hide{
+    display: none;
+}
+
+#winningmsg{
+    font-size: 6vmin;
+    color:white;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box1{
+    border-color:aquamarine;
+    background-color:teal;
+    color:black;
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    font-size: 70px;
+
+}
+.container{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black;
+}
+#newGame{
+    background-color:plum;
+    color: black;
+    border-radius: 1rem;
+    padding:1rem;
+    font-size: medium;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-left: 50px;
+}
+#newGame:hover{
+    background-color:aqua;
+    color: rgb(7, 7, 7);
+}
+#reset{
+    background-color:deepskyblue;
+    color: rgb(12, 10, 10);
+    border-radius: 1rem;
+    padding:1rem;
+    font-size: medium;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#reset:hover{
+    background-color:lime ;
+    color: black;
+}
