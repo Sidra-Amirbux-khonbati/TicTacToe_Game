@@ -22,4 +22,7 @@ The game highlights the winning combination and allows easy reset or starting a 
 3. The first player to align three marks **horizontally, vertically, or diagonally** wins.
 4. Click **Reset Game** to clear the board without removing the winner message.
 5. Click **New Game** to restart the game completely.
-   
+
+## 🔗 Live Demo
+
+👉 **[View TicTacToe_Game Live](https://sidra-amirbux-khonbati.github.io/TicTacToe_Game/)**
